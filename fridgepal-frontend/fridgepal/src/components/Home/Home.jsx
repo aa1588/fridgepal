@@ -22,7 +22,7 @@ const getDaysLeft = (expiry) => {
 };
 
 export default function Home() {
-  const API = "http://127.0.0.1:8000/items";
+  const API = "https://fridgepal-65l3.onrender.com/items";
   const [items, setItems] = useState([]);
   const [form, setForm] = useState({
     id: "",
